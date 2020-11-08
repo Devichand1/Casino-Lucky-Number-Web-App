@@ -1,0 +1,9 @@
+.header{
+    background-color: #28d;
+    display: flex;
+    justify-content: space-between;
+    padding:5px 40px;
+}
+.header_left .MuiSvgIcon-root {
+    font-size: xxx-large;
+}

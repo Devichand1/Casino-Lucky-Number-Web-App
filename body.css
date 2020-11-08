@@ -1,0 +1,121 @@
+.body{
+    width:70%;
+    margin-left:15%;
+    overflow: hidden;
+   
+}
+.body img{
+    width: 100%;
+   
+}
+.body .luckyn{
+    width: 50px;
+    height: 80px;
+    background: #888888;
+    margin-top: 100px;
+    margin-left: 20px;
+    top: 0%;
+    position: absolute;
+    border: 2px solid #28d;
+}
+Card{
+    width:50px;
+    
+}
+.counter{
+    font-size: 30px;
+    color: #28d;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 3px;
+    margin-left: 65%;
+    float: right;
+    position: absolute;
+    margin-top: -70px;
+    background-color: bisque;
+}
+.section {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.section Button {
+    
+    display: flex;
+    flex: 1;
+    margin: 0px 30px;
+   
+}
+.section .casino7{
+    padding:0px;
+    background-color: #fff;
+    border: 1px solid #000;
+    color:#fff;
+    font-size: 20px;
+    
+}
+p{
+    display: flex;
+    
+}
+.input_amnt{
+    display: flex;
+    flex: 1;
+    color: rebeccapurple;
+}
+
+.high_card , .low_card , .khali_card{
+    width:50px;
+     height:80px;
+}
+.slider{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background: #3498db;
+}
+.slider .img {
+    width: 23%;
+   margin: 1%;
+   
+    
+}
+.img img{
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #fff;
+}
+.img p {
+    justify-content: space-around;
+    padding: 0%;
+    margin: 0%;
+    color: #fff;
+}
+
+@media only screen  and (max-width:800px){
+    .body{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .body .luckyn{
+        width: 50px;
+        height: 80px;
+    }
+    .counter{
+        margin-left: 85%;
+        font-size: 20px;
+        margin-top: -50px;
+    }
+    .section Button {
+        margin: 5px;
+    }
+    .img img{
+        height: 80px;
+    }
+
+    .img p {
+        font-size: 12px;
+    }
+}
